@@ -1,0 +1,45 @@
+.ant-select.ant-select-single.ant-select-show-arrow .ant-select-selector {
+  @apply bg-gray-200 rounded border-none flex items-center;
+}
+.ant-select.ant-select-single.ant-select-show-arrow .ant-select-selector:hover {
+  @apply text-current bg-gray-300;
+}
+span.ant-select-selection-item:hover {
+  @apply text-current;
+}
+li.ant-pagination-item {
+  @apply bg-gray-200 hover:bg-purple-600 hover:text-white rounded border-none;
+}
+.ant-pagination-item:hover a {
+  @apply text-white;
+}
+.ant-pagination-item:focus a {
+  @apply text-white;
+}
+.ant-pagination-item a {
+  @apply text-current;
+}
+.ant-pagination-item-active a {
+  @apply rounded bg-purple-600 text-white hover:bg-purple-600;
+}
+li.ant-pagination-item.ant-pagination-item-active {
+  @apply bg-purple-600 hover:bg-purple-600;
+}
+.ant-select.ant-select-single.ant-select-show-arrow.span.ant-select-arrow {
+  @apply hover:bg-white;
+}
+.ant-pagination-next .ant-pagination-item-link {
+  @apply flex items-center justify-center bg-gray-200 hover:text-current hover:bg-gray-300 rounded border-none;
+}
+.ant-pagination-prev .ant-pagination-item-link {
+  @apply flex items-center justify-center bg-gray-200 hover:text-current hover:bg-gray-300 rounded border-none;
+}
+.height-paging
+  .ant-select.ant-select-single.ant-select-show-arrow
+  .ant-select-selector {
+  @apply h-8;
+}
+.ant-select.ant-pagination-options-size-changer.ant-select-single.ant-select-show-arrow
+  .ant-select-selector {
+  @apply h-8;
+}

@@ -1,0 +1,53 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:react/recommended"
+  ],
+  "plugins": ["prettier"],
+  "env": {
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "no-param-reassign": ["error", { "props": false }],
+    "no-unused-vars": "warn",
+    "react/forbid-prop-types": 0,
+    "react/display-name": 0,
+    "eslint-disable-next-line": 0,
+    "no-use-before-define": 0, // do react không cần
+    "import/no-unresolved": 0, // để sử dụng @
+    "import/no-named-as-default": 0, // để export default component không bị lỗi này nữa
+    "import/no-named-as-default-member": 0, // để export default component không bị lỗi này nữa
+    "import/no-cycle": 0, //loi import index
+    "react/destructuring-assignment": 0, // cho cac bang
+    "import/no-extraneous-dependencies": 0, // cho import dev dependencies
+    "no-underscore-dangle": 0, // for moment
+    "import/prefer-default-export": 0, // export const
+    "default-case": 0, // default switch case
+    "arrow-body-style": 0,
+    "no-nested-ternary": 0
+  },
+  "globals": {
+    "fetch": true,
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
+  }
+}

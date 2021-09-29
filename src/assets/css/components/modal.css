@@ -1,0 +1,6 @@
+.ant-modal-title {
+  @apply font-bold !important;
+}
+.ant-modal-footer {
+  @apply flex justify-end;
+}

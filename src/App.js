@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { ConfigProvider } from 'antd';
+import withReduxStore from '@/utils/with-redux-store';
+import vi from 'antd/lib/locale/vi_VN';
 import './App.css';
+import './assets/css/tailwind.css';
+import './assets/css/components.css';
+import { Provider } from 'react-redux';
+import Router from './router';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = ({ reduxStore }) => (
+  <div>
+    <ConfigProvider locale={vi}>
+      <Provider store={reduxStore}>
+        <Router />
+      </Provider>
+    </ConfigProvider>
+    <div className='version'>Version: 0.009</div>
+  </div>
+);
 
-export default App;
+App.propTypes = {
+  reduxStore: PropTypes.any.isRequired,
+};
+
+export default withReduxStore(App);

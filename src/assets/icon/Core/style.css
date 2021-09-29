@@ -1,0 +1,25 @@
+.parent:hover .primary {
+  fill: #3699ff;
+}
+.parent:hover .nature {
+  fill: #234168;
+}
+/* .parent:hover {
+  transform: scale(1.1);
+} */
+.primary,
+.parent {
+  transition: all 0.25s;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+.ant-menu-item-selected .hover {
+  fill: #3699ff;
+}
+.ant-menu-item:hover .hover {
+  fill: #3699ff;
+}
+.ant-menu-submenu-title:hover .hover {
+  fill: #3699ff;
+}

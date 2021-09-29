@@ -1,0 +1,3 @@
+.ant-form-item-has-error.ant-form-item-has-feedback .ant-form-item-children-icon {
+    @apply pl-3.5
+}

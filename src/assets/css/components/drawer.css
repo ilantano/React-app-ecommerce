@@ -1,0 +1,6 @@
+.ant-drawer-title {
+  @apply font-bold !important;
+}
+.ant-drawer-footer {
+  @apply flex justify-end;
+}

@@ -1,0 +1,6 @@
+.ant-breadcrumb {
+  @apply inline ml-2 border-l pl-2;
+}
+.ant-breadcrumb-link {
+  @apply text-gray-400 font-medium;
+}

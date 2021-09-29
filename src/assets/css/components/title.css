@@ -1,0 +1,15 @@
+.title-not-paid {
+  @apply  px-3 py-1 ml-auto text-center text-yellow-500 bg-yellow-200 rounded;
+}
+.title-cancel {
+  @apply  px-3 py-1 ml-auto text-center text-red-500 bg-red-200 rounded;
+}
+.title-active {
+  @apply  px-3 py-1 ml-auto text-center text-green-500 bg-green-200 rounded;
+}
+.title-paying {
+  @apply  px-3 py-1 ml-auto text-center text-red-500 bg-red-200 rounded;
+}
+.title-limit-expires {
+  @apply  px-3 py-1 ml-auto text-center text-gray-500 bg-gray-200 rounded;
+}

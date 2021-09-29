@@ -1,0 +1,24 @@
+.ant-table-thead > tr > th {
+  @apply text-gray-400 uppercase text-xs font-bold tracking-wide
+  bg-gray-100 no-underline !important;
+}
+
+.ant-table-thead > tr > th {
+  @apply text-center;
+}
+
+.ant-table-thead > tr > th :has(.clear-css) {
+  @apply text-right font-bold !important;
+}
+
+.ant-table-thead > tr > th :has(.font-mo) {
+  @apply text-right !important;
+}
+
+.ant-table-thead > tr :first-child {
+  @apply text-left !important;
+}
+
+.ant-table-cell {
+  @apply py-4 !important;
+}

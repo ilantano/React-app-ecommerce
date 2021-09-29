@@ -1,0 +1,6 @@
+const RESPONSE_CODE = {
+  EXPECTATION_FAILED: 417,
+  NOT_SIGNED_IN: 401,
+};
+
+export default RESPONSE_CODE;

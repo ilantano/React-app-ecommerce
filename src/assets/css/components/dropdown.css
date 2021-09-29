@@ -1,0 +1,36 @@
+.ant-select.w-50.ant-select-single.ant-select-show-arrow .ant-select-selector {
+  @apply bg-gray-200 rounded hover:bg-gray-300 border-none flex h-10 items-center;
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  @apply shadow-none !important;
+}
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  @apply hover:bg-gray-200;
+}
+.ant-select-arrow {
+  @apply text-gray-600;
+}
+.span.ant-select-selection-item {
+  @apply bg-white hover:bg-gray-200 ;
+}
+.ant-select-item.ant-select-item-option{
+  @apply flex h-10 items-center;
+}
+.ant-select-item.ant-select-item-option.ant-select-item-option-selected{
+  @apply bg-gray-300;
+}
+.ant-select-dropdown.ant-select-dropdown-placement-bottomLeft {
+  @apply bg-white rounded;
+}
+.ant-select-single.ant-select-open .ant-select-selection-item {
+  @apply text-current;
+}
+.ant-select-selector {
+  @apply h-10;
+}
+.ant-select.ant-select-single.ant-select-show-arrow .ant-select-selector {
+  @apply h-10;
+}
+.custom-pagination .ant-select.ant-select-single.ant-select-show-arrow .ant-select-selector {
+  @apply h-8;
+}

@@ -1,0 +1,4 @@
+.site-layout-background {
+  @apply px-5 py-6 m-0 !important;
+  background: #edeff7 !important;
+}

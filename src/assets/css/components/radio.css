@@ -1,0 +1,18 @@
+.ant-radio-checked .ant-radio-inner {
+  @apply border-purple-500 ;
+}
+.ant-radio-inner::after {
+  @apply bg-purple-500;
+}
+.ant-radio-input {
+  @apply  hover:border-purple-500 ;
+}
+.ant-radio-wrapper:hover .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+  @apply border-purple-500 shadow-none;
+}
+.ant-radio-wrapper:hover .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+  @apply border-purple-500;
+}
+.ant-radio-checked::after {
+  @apply border-purple-500;
+}

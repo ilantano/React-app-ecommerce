@@ -1,0 +1,7 @@
+span.ant-tooltip-disabled-compatible-wrapper.tooltip-disable {
+  @apply bg-transparent;
+}
+
+span.cursor-pointer.ant-tooltip-disabled-compatible-wrapper button {
+  @apply bg-transparent;
+}

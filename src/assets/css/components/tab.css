@@ -1,0 +1,15 @@
+.ant-tabs-nav-wrap {
+  @apply justify-center;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  @apply text-purple-500;
+}
+.ant-tabs-tab:hover {
+  @apply text-purple-500;
+}
+.ant-tabs-ink-bar {
+  @apply bg-purple-500;
+}
+.ant-tabs-tab-btn:focus {
+  @apply text-black;
+}

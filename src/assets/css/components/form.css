@@ -1,0 +1,55 @@
+.ant-form-item-label label {
+  width: 6.5rem !important;
+  height: 40px !important;
+}
+.label-width .ant-form-item-label label {
+  width: 15rem !important;
+}
+.input-agency .ant-form-item-label label {
+  width: 6.5rem !important;
+  height: 40px !important;
+}
+.label-width-select .ant-form-item-label label {
+  width: 22rem !important;
+}
+.select-bold .ant-form-item-label label {
+  @apply font-bold;
+}
+label.ant-form-item-required {
+  width: 15rem !important;
+}
+.ant-form-item-extra {
+  @apply text-red-500 !important;
+}
+.extra-warning .ant-form-item-extra {
+  @apply text-yellow-500 mt-1 !important;
+}
+.ant-form-item-has-error
+  .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input)
+  .ant-select-selector {
+  @apply bg-gray-300;
+}
+.ant-row.ant-form-item {
+  @apply mb-3;
+}
+.ant-col.ant-form-item-label {
+  @apply pb-0;
+}
+.ant-row.ant-form-item.discount-code.ant-form-item-has-success {
+  @apply mb-0;
+}
+.ant-row.ant-form-item.discount-code {
+  width: 23rem;
+}
+.ant-form-item-required {
+  @apply font-bold;
+}
+.ant-row.ant-form-item.label-width-select.select-bold {
+  @apply mb-0;
+}
+.ant-form-item {
+  @apply mb-0 !important;
+}
+.extra-error .ant-form-item-extra {
+  @apply text-red-500 mt-1 !important;
+}
